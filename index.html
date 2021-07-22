@@ -445,6 +445,15 @@
             </li>              
           </ul>
         </div>
+
+        <div class="footer-form-container">
+          <p class="join-text">Подпишитесь на рассылку</p>
+          <form class="footer-form" action="">
+            <input type="email" name="mail">
+            <button type="submit">Подписаться</button>
+          </form>
+        </div>
+
       </div>
     </footer>
 
@@ -456,6 +465,36 @@
             <use href="./images/sprite.svg#close-btn"></use>
           </svg>
         </button>
+
+        <form action="" class="modal-form">
+          <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
+          
+          <label class="form-field">
+            Имя
+            <input type="text" name="name" class="form-input">
+          </label>          
+
+          <label class="form-field">
+            Телефон
+            <input type="tel" name="tel" class="form-input">
+          </label>
+          
+          <label class="form-field">
+            Почта
+            <input type="email" name="mail" id="mail" class="form-input">
+          </label>
+          
+
+          <label class="form-field">
+            Комментарий
+            <textarea name="comment" placeholder="Введите текст"></textarea>
+          </label>
+          
+
+          <input type="checkbox" name="agree" id="agree" required>
+          <label class="form-checkbox-label" for="agree">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
+        </form>
+        
       </div>
     </div>
 

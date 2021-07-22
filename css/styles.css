@@ -675,6 +675,10 @@ ul {
   background-color: var(--primary-accent-color);
 }
 
+.footer-form-container {
+  margin-left: 92px;
+}
+
 /* ========= END FOOTER ========= */
 
 /* ======================= MODAL ======================= */
@@ -730,4 +734,23 @@ ul {
   border-radius: 50%;
   cursor: pointer;
 }
-/* ===================== END MODAL ===================== */
+
+.form-title {
+  padding-top: 40px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-dark-color);
+}
+
+.form-field {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+}
+
+/* ===================== END MODAL ===================== */ ;
