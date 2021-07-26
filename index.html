@@ -443,9 +443,20 @@
 
         <div class="footer-form-container">
           <p class="join-text">Подпишитесь на рассылку</p>
-          <form class="footer-form" action="">
-            <input type="email" name="mail" />
-            <button type="submit">Подписаться</button>
+          <form class="footer-form" action="#">
+            <input
+              class="footer-form-field"
+              type="email"
+              name="mail"
+              placeholder="E-mail"
+              required
+            />
+            <button class="footer-form-btn" type="submit">
+              Подписаться
+              <svg class="footer-btn-icon" width="24" height="24">
+                <use href="./images/sprite.svg#send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -460,7 +471,7 @@
           </svg>
         </button>
 
-        <form action="" class="modal-form">
+        <form action="#" class="modal-form">
           <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
 
           <label class="form-field">
@@ -513,16 +524,22 @@
             <textarea class="message-input" name="comment" placeholder="Введите текст"></textarea>
           </label>
 
-          <input class="form-checkbox visually-hidden" type="checkbox" name="policy" id="policy" required />
-          <label class="form-checkbox-label" for="policy"
-            >
+          <input
+            class="form-checkbox visually-hidden"
+            type="checkbox"
+            name="policy"
+            id="policy"
+            required
+          />
+          <label class="form-checkbox-label" for="policy">
             <svg class="icon-not-checked" width="16" height="15">
               <use href="./images/sprite.svg#not-checked"></use>
             </svg>
             <svg class="icon-checked" width="16" height="15">
               <use href="./images/sprite.svg#checked"></use>
             </svg>
-            Соглашаюсь с рассылкой и принимаю&nbsp; <a class="checkbox-link" href="">Условия договора</a></label
+            Соглашаюсь с рассылкой и принимаю&nbsp;
+            <a class="checkbox-link" href="">Условия договора</a></label
           >
           <button class="modal-form-btn" type="submit">Отправить</button>
         </form>
